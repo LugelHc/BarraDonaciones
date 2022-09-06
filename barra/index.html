@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="number" placeholder="meta" class="meta" min=1>
+        <input type="submit" value="Seleccionar meta" class="btn-meta">
+    </form>
+    <div class="invisible">
+        <form>
+            <input type="number" placeholder="Donaciones" class="donaciones" minn=1>
+            <input type="submit" value="Enviar" class="boton-de-envio">
+            <input type="button" value="Reiniciar" onclick="location.reload()">
+           
+        </form>
+   
+    
+        <div class="progress">
+            <div class="progress-bar"></div>
+            <div class="porcentaje"><p class="numeroPorcentaje"></p></div>
+            <h3 class="cantidad-donaciones"></h3>
+        </div>
+    </div>
+    <h2 class="visible"></h2>
+<script src="JavaScript.js"></script>
+</body>
+</html>
